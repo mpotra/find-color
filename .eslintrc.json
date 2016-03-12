@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": "standard",
+  "plugins": [
+    "standard"
+  ],
+  "rules": {
+    "space-before-function-paren": [2, "never"],
+    "no-trailing-spaces": [2, { "skipBlankLines": true }]
+  }
+}
