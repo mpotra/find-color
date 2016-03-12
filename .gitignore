@@ -28,6 +28,24 @@ node_modules
 
 # Optional npm cache directory
 .npm
+*.gz
 
 # Optional REPL history
 .node_repl_history
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# do not push compiled files via git
+lib
